@@ -17,5 +17,43 @@ body {
 section {
     width: 100%;
     min-height: 100vh;
-    /* background-color: rgba(48, 95, 5, 0.7); */
+}
+nav {
+    height: 5rem;
+    display: flex;
+    padding: 0 7rem;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .icon-list {
+    list-style: none;
+    display: flex;
+}
+nav .icon-list li {
+    margin: 0 2px;
+    cursor: pointer;
+}
+nav .icon-list li a {
+    display: inline-block;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(125, 202, 24);
+    text-align: center;
+    transition: all 0.1s ease;
+}
+nav .icon-list li a i { 
+    width: 100%;
+    margin: auto;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    padding: 12px;
+}
+nav .icon-list li:hover a {
+    background-color: aliceblue;
+}
+nav .icon-list li:hover i {
+    color: rgb(125, 202, 24);
 }
