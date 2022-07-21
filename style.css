@@ -76,3 +76,36 @@ nav .nav-items li a:hover {
     background-color: rgb(125, 202, 24);
     color: aliceblue;
 }
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+.content {
+    display: inline-block;
+    margin-top: 60px;
+    padding-right: 5rem;
+}
+.content .logo {
+    width: 5rem;
+    display: inline-block;
+}
+.content .logo img {
+    width: 300%;
+    border-radius: 50%;
+}
+.content h1 {
+    font-size: 38px;
+    font-weight: lighter;
+}
+.content h5 {
+    font-size: 23px;
+    font-weight: lighter;
+    color: aliceblue;
+}
+.content p {
+    margin-top: 1rem;
+    font-size: 16px;
+    color: aliceblue;
+}
