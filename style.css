@@ -9,7 +9,6 @@
 }
 body {
     background-image: url(img/background3.jpg);
-    /* background-position: center; */
     background-size: cover;
     background-size: auto;
     background-repeat: no-repeat;
@@ -36,11 +35,12 @@ nav .icon-list li {
 }
 nav .icon-list li a {
     display: inline-block;
-    margin: 5px;
-    width: 40px;
-    height: 40px;
+    margin: 12px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    background-color: rgb(125, 202, 24);
+    background-color: transparent;
+    border: 3px solid aliceblue;
     text-align: center;
     transition: all 0.1s ease;
 }
@@ -48,14 +48,14 @@ nav .icon-list li a i {
     width: 100%;
     margin: auto;
     transition: all 0.3s ease;
-    font-size: 16px;
+    font-size: 20px;
     padding: 12px;
 }
 nav .icon-list li:hover a {
     background-color: aliceblue;
 }
 nav .icon-list li:hover i {
-    color: rgb(125, 202, 24);
+    color: black;
 }
 nav .nav-items {
     list-style: none;
@@ -73,8 +73,8 @@ nav .nav-items li a {
     transition: all 0.3s ease;
 }
 nav .nav-items li a:hover {
-    background-color: rgb(125, 202, 24);
-    color: aliceblue;
+    background-color: aliceblue;
+    color: black;
 }
 .container {
     width: 100%;
@@ -108,4 +108,49 @@ nav .nav-items li a:hover {
     margin-top: 1rem;
     font-size: 16px;
     color: aliceblue;
+}
+.content .btns {
+    margin-top: 30px;
+}
+.content .btn-1, .content .btn-2 {
+    padding: 15px 35px;
+    font-size: 19px;
+    background-color: transparent;
+    border: 3px solid aliceblue;
+    border-radius: 999px;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+.content .btn-1 {
+    margin-right: 5px;
+    color: aliceblue;
+}
+.content .btn-1:hover {
+    background-color: aliceblue;
+    color: black;
+}
+.content .btn-1 i {
+    color: black;
+    font-size: 19px;
+    width: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.content .btn-1:hover i {
+    width: auto;
+    opacity: 1;
+    padding-left: 15px;
+}
+.content .btn-2 i {
+    padding-left: 15px;
+    font-size: 20px;
+}
+.content .btn-2:hover {
+    background-color: aliceblue;
+    color: black;
+    transition: all 0.3s ease;
+}
+.content .btn-2:hover i {
+    color: black;
+    transition: all 0.3s ease;
 }
