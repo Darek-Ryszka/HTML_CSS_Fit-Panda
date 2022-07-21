@@ -57,3 +57,22 @@ nav .icon-list li:hover a {
 nav .icon-list li:hover i {
     color: rgb(125, 202, 24);
 }
+nav .nav-items {
+    list-style: none;
+    display: flex;
+}
+nav .nav-items li {
+    padding: 0 10px;
+}
+nav .nav-items li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+nav .nav-items li a:hover {
+    background-color: rgb(125, 202, 24);
+    color: aliceblue;
+}
