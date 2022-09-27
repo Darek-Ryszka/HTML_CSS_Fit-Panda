@@ -86,3 +86,24 @@ span{
 section{
 	padding: 0 19%;
 }
+.main-text h1{
+	margin: 15px 0;
+	font-size: 5.5rem;
+	font-weight: 800;
+	color: #3e1908;
+	letter-spacing: 2px;
+	line-height: 1.1;
+	text-transform: uppercase;
+}
+.main-text h5{
+	font-size: 1.3rem;
+	color: #ca7c62;
+	font-weight: 600;
+	letter-spacing: 5px;
+}
+.main-text p{
+	font-size: 1.1rem;
+	color: #9f9c9d;
+	line-height: 30px;
+	margin-bottom: 3rem;
+}
