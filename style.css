@@ -72,3 +72,17 @@ span{
 	margin-left: 10px;
 	display: none;
 }
+.main-header{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/pet.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	align-items: center;
+}
+section{
+	padding: 0 19%;
+}
