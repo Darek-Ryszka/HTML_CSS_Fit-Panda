@@ -17,3 +17,8 @@ header{
 	justify-content: space-between;
 	padding: 20px 5%;
 }
+.logo{
+	color: #3e1908;
+	font-size: 35px;
+	font-weight: 800;
+}
