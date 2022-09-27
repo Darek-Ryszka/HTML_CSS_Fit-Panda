@@ -41,3 +41,26 @@ span{
 	color: #ca7c62;
 	border-bottom: 2px solid #ca7c62;
 }
+.icons{
+	display: flex;
+	align-items: center;
+}
+.icons i{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 35px;
+	width: 35px;
+	background: #ca7c62;
+	color: #fff;
+	font-size: 18px;
+	margin: 0 10px;
+	border-radius: 10px;
+	border: 1px solid transparent;
+	transition: all .40s ease;
+}
+.icons i:hover{
+	border: 1px solid #3e1908;
+	color: #3e1908;
+	background: transparent;
+}
