@@ -64,3 +64,11 @@ span{
 	color: #3e1908;
 	background: transparent;
 }
+#menu-icon{
+	color: #3e1908;
+	font-size: 26px;
+	z-index: 10001;
+	cursor: pointer;
+	margin-left: 10px;
+	display: none;
+}
