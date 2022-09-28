@@ -149,3 +149,24 @@ section{
 .left i:hover{
 	transform: scale(1.1) translateX(-5px);
 }
+.right{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+}
+.scroll{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.right a{
+	color: #ca7c62;
+	font-size: 1.1rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.right i{
+	color: #ca7c62;
+	font-size: 25px;
+	margin-left: 5px;
+}
