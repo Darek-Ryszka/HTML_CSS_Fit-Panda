@@ -189,3 +189,20 @@ section{
 		transition: .2s;
 	}
 }
+
+@media (max-width: 1000px){
+	.main-text h1{
+		font-size: 3.9rem;
+		transition: .2s;
+	}
+	.main-text h5{
+		font-size: 18px;
+	}
+	.main-text p{
+		font-size: 1rem;
+	}
+	.btn{
+		padding: 11px 29px;
+		transition: .2s;
+	}
+}
