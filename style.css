@@ -124,3 +124,12 @@ section{
 	margin-left: 20px;
 	transition: all .40s ease;
 }
+.btn:hover{
+	background: transparent;
+	border: 2px solid #ca7c62;
+	color: #3e1908;
+}
+.btn2:hover{
+	background: #ca7c62;
+	color: #fff;
+}
