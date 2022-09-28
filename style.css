@@ -107,3 +107,20 @@ section{
 	line-height: 30px;
 	margin-bottom: 3rem;
 }
+.btn{
+	padding: 15px 35px;
+	color: #fff;
+	background: #ca7c62;
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 15px;
+	border: 2px solid transparent;
+	transition: all .40s ease;
+}
+.btn2{
+	background: transparent;
+	border: 2px solid #ca7c62;
+	color: #3e1908;
+	margin-left: 20px;
+	transition: all .40s ease;
+}
